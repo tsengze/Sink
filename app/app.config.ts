@@ -4,7 +4,7 @@ export default defineAppConfig({
   coffee: 'https://sink.cool/coffee',
   twitter: 'https://sink.cool/x',
   telegram: 'https://sink.cool/telegram',
-  description: '短链接服务',
+  description: '运行在 Cloudflare 上的短链接服务',
   image: 'https://sink.cool/banner.png',
   previewTTL: 300, // 5 minutes
   slugRegex: /^[a-z0-9]+(?:-[a-z0-9]+)*$/i,
